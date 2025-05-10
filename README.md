@@ -24,9 +24,23 @@ Netflix Titles Dataset from [Kaggle](https://www.kaggle.com/datasets/shivamb/net
 
 ---
 
-## 📸 Sample Visuals
+## 📊 Sample Visualizations
 
-Coming soon — screenshots of charts will be added here.
+### 📈 Titles Added Each Year
+![Line Plot](images/line_plot.png)
+
+### 🔥 Missing Values Heatmap
+![Heatmap](images/heatmap.png)
+
+### 🥧 Content Type Distribution
+![Pie Chart](images/pie_chart.png)
+
+### 🎬 Movie Duration Distribution
+![Histogram](images/movie_duration_hist.png)
+
+### 🎯 Ratings Over Time
+![Ratings Line](images/rating_trend.png)
+
 
 ---
 
