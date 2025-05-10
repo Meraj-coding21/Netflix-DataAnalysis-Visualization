@@ -1,20 +1,20 @@
 # Netflix Dataset Analysis & Visualization 📺📊
 
-This project explores and visualizes the Netflix Titles Dataset using **Pandas** and **Matplotlib** in a Jupyter Notebook. It includes data cleaning, missing value treatment, and various visualizations to uncover trends and insights about Netflix's global content.
+This project explores and visualizes the Netflix Titles Dataset using **Pandas** and **Matplotlib** in a Jupyter Notebook. It includes data cleaning, missing value handling, and a variety of insightful visualizations to uncover trends in Netflix content.
 
 ---
 
 ## 🔍 Features
 
-- Handling missing values and inconsistent entries
+- Missing value treatment and data cleaning
+- Extracted and standardized date and duration fields
 - Visualizations:
-  - Line plot of titles added each year
+  - Titles added per year
   - Heatmap of missing data
-  - Pie chart of content types
-  - Histogram of movie durations
-  - Line plot of rating trends by year
-- Duration extraction and transformation
-- Cleaned and structured dataset for analysis
+  - Content type proportions
+  - Movie duration distribution
+  - Ratings trend over the years
+  - Most popular genres
 
 ---
 
@@ -38,16 +38,19 @@ Netflix Titles Dataset from [Kaggle](https://www.kaggle.com/datasets/shivamb/net
 ### 🎬 Movie Duration Distribution
 ![Histogram](images/movie_duration_hist.png)
 
-### 🎯 Ratings Over Time
+### 🎯 Ratings Trend Over Time
 ![Ratings Line](images/rating_trend.png)
 
+### 🎭 Most Popular Genres
+![Genres](images/most_popular_genres.png)
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repo
-2. Open `Netflix_Dataset_Analysis.ipynb` in Jupyter
+1. Clone this repository
+2. Open `Netflix_Dataset_Analysis.ipynb` in Jupyter Notebook
 3. Install dependencies:
    ```bash
    pip install pandas matplotlib seaborn
+
